@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 
 
 class MainPageLocators:
-    """The class for main page locators / http://mail.ru ."""
+    """The class for main page locators: http://mail.ru ."""
     LOGIN = (By.XPATH, './/input[@id="mailbox:login"]')
     DOMAIN_MAIL = (By.XPATH, './/select[@id="mailbox:domain"]/option[text()="@mail.ru"]')
     AUTH_BUTTON = (By.XPATH, './/label[@id="mailbox:submit"]/input[@class="o-control"]')
@@ -13,7 +13,7 @@ class MainPageLocators:
 
 
 class InboxPageLocators:
-    """The class for inbox page locators / https://e.mail.ru/inbox/ ."""
+    """The class for inbox page locators: https://e.mail.ru/inbox/ ."""
     COMPOSE_BUTTON = (By.XPATH, './/div[starts-with(@class, "sidebar__compose-btn-box")]/a')
 
 
