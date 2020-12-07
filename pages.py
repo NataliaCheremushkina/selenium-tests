@@ -27,7 +27,7 @@ class BasePage:
 
 
 class MainPage(BasePage):
-    """Main page action methods / http://mail.ru ."""
+    """Main page action methods: http://mail.ru ."""
 
     def login(self, user, passwd):
         """Inserts email, domain, password to form and clicks auth button."""
@@ -48,7 +48,7 @@ class MainPage(BasePage):
 
 
 class InboxPage(BasePage):
-    """Inbox page action methods / https://e.mail.ru/inbox/ ."""
+    """Inbox page action methods: https://e.mail.ru/inbox/ ."""
 
     def click_compose_button(self):
         """Clicks compose button."""
